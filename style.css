@@ -1,4 +1,3 @@
-
 html, body {
       cursor: url(cursor.png), auto !important;
 }
@@ -13,6 +12,7 @@ html, body {
 /*--------------- hero section --------------- */
 
 /**Video Sectiion**/
+
 .video-container {
       position: absolute;
       width: 100%;
@@ -47,7 +47,7 @@ video {
       transform: translate(-50%, -50%);
 }
 
-.header h1 ,h2{
+.header h1, h2 {
       color: #d3ae87;
       font-size: 80px !important;
 }
@@ -56,8 +56,7 @@ video {
       .header {
             left: 50%;
       }
-
-      .header h1,h2{
+      .header h1, h2 {
             font-size: 34px !important;
             text-align: center;
       }
@@ -212,11 +211,9 @@ video {
             margin-top: 6px;
             margin-right: 4px;
       }
-
       nav #brand {
             margin-left: 10px;
       }
-
       #resize ul li a {
             font-size: 15px;
             font-family: "Poppins" !important;
@@ -224,7 +221,6 @@ video {
             color: rgb(156, 156, 156) !important;
             transition: all 500ms ease-out;
       }
-
       nav #menu {
             display: none;
       }
@@ -247,9 +243,11 @@ video {
 section {
       padding: 140px 0;
 }
+
 /**Index NO**/
+
 .section-index {
-      color:green;
+      color: green;
       font-weight: bolder;
       font-size: 50px;
       font-family: Poppins !important;
@@ -261,12 +259,16 @@ section {
       letter-spacing: 4px;
       font-size: 30px;
 }
+
 /**Middle text**/
+
 .section-subheading {
       color: grey;
       margin: 40px 0;
 }
+
 /**Last font changes**/
+
 .section-info {
       font-size: 40px;
       color: green;
@@ -286,6 +288,7 @@ button {
 }
 
 /*--------------- services section starts  --------------- */
+
 /**
 .services {
       background: #161616;
@@ -307,45 +310,42 @@ button {
       font-weight: lighter;
 }
 **/
+
 /*--------------- our team (main photo and Club Insertion Section)section starts  --------------- */
+
 .Clubs {
       background: #161616;
 }
+
 .Clubs {
       margin: 40px 0;
 }
 
-main{
+main {
       margin-left: 120px;
 }
 
-
-.box{
+.box {
       display: block;
       float: left;
-      width:30%; 
+      width: 30%;
       padding: 50px;
       padding-right: 15px;
       background-color: black;
-
-
 }
-img{
-      width:97%;
-    }
 
-img:hover{
-      transform: scale(1.5,1.5);
+img {
+      width: 97%;
+}
+
+img:hover {
+      transform: scale(1.5, 1.5);
       transition: .3s transform;
-      
 }
-
-
 
 /*--------------- newsletter (Suggestion section)section starts  --------------- */
 
 .newsletter {
-
       padding: 190px 0;
       background: #161616;
 }
@@ -398,7 +398,6 @@ img:hover{
 #contact-form {
       margin: 5% 0;
       font-size: 40px;
-
 }
 
 .contact .icon-title {
@@ -466,12 +465,10 @@ textarea:focus {
 }
 
 .footer .container {
-      
       padding: 120px 0;
 }
 
 .footer li, p, h4 {
-
       font-size: 20px !important;
 }
 
