@@ -321,6 +321,7 @@ main{
 
 
 .box{
+      text-align: center;
       display: block;
       float: left;
       width:30%; 
