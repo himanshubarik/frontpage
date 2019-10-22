@@ -344,6 +344,15 @@ main {
 	margin-left: 120px;
 }
 
+.box{
+      text-align: center;
+      display: block;
+      float: left;
+      width:30%; 
+      padding: 50px;
+      padding-right: 15px;
+      background-color: black;
+
 .box {
   text-align: center;
 	display: block;
