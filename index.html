@@ -44,7 +44,7 @@
    <!--------------- navbar starts here --------------->
    <nav class="nav">
    <span id="brand">
-   <a href="index.html">ITER Club Page<a https://www.soa.ac.in › iter></a></a>
+   <a href="index.html">ITER Club Page<a https://www.soa.ac.in › iter></a>
    </span>
    <ul id="menu">
    <li><a href="#home">Home</a></li>
@@ -136,7 +136,7 @@
 
             <nav class="nav">
                   <span id="brand">
-                        <a href="index.html">ITER Club Page<a https://www.soa.ac.in › iter></a></a>
+                        <a href="index.html">ITER Club Page<a https://www.soa.ac.in › iter></a>
                   </span>
 
                   <ul id="menu">
@@ -574,9 +574,12 @@
    <h1 class="wow fadeInUp" data-wow-delay="0.3s">Any Improvement Required By Us To Make This Website Look Good</h1>
    </div>
    <div class="input-group wow fadeInUp" data-wow-delay="0.4s">
-   <input type="email" class="form-control" placeholder="Enter your feedback">
-   <span class="input-group-btn">
-   <button class="btn" type="submit" name="feedback"><p style="width:60px;height:20px;">Submit</p></button>
+         <form action="send_mail.php" method="POST">
+                  <input type="email" name="email" class="form-control" placeholder="Enter your feedback">
+                  <span class="input-group-btn">
+                  <input class="btn" type="submit" value="Submit"/>
+         </form>
+   
    </span>
    </div>
    </div>
