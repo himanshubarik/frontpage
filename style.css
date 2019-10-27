@@ -95,12 +95,18 @@ h2 {
 	line-height: 80px;
 	font-weight: bold;
 	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
 	font-size: 18px;
+}
+#brand{
+	font-size: 30px;
+	color:white;
 }
 
 .nav #brand a {
 	color: #fff;
-	font-family: Poppins !important;
 	transition: all 500ms ease-out;
 }
 
@@ -228,7 +234,7 @@ h2 {
 	}
 	#resize ul li a {
 		font-size: 15px;
-		font-family: "Poppins" !important;
+		font-family: Arial, Helvetica, sans-serif !important;
 		font-weight: lighter !important;
 		color: rgb(156, 156, 156) !important;
 		transition: all 500ms ease-out;
@@ -531,7 +537,8 @@ h4 {
 }
 
 #media ul {
-	list-style: none;
+	list-style:none ;
+	list-style-type: none;
 }
 
 #media ul li {
