@@ -351,17 +351,9 @@ main {
       width:30%; 
       padding: 50px;
       padding-right: 15px;
-      background-color: black;
-
-.box {
-  text-align: center;
-	display: block;
-	float: left;
-	width: 30%;
-	padding: 50px;
-	padding-right: 15px;
-	background-color: black;
+	  background-color: black;
 }
+
 
 img {
 	width: 97%;
